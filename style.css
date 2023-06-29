@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/*font-family: 'Bebas Neue', cursive; */
+
 
 *{
     margin: 0;
@@ -22,11 +22,12 @@ body {
 }
 
 .header {
-    background-image: url(https://images5.alphacoders.com/644/thumb-1920-644980.jpg);
+    background-image: url(https://www.zastavki.com/pictures/1280x720/2015/Backgrounds_Blue_Black_Background_107698_26.jpg);
+    background-attachment: fixed;  
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -41,6 +42,8 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    background-color: #040404;
+    position: fixed;
 }
 
 .logo {
@@ -77,4 +80,235 @@ body {
 .menu label {
     cursor: pointer;
     display: none;
+}
+
+.header-txt {
+    text-align: center;
+    margin-bottom: none;
+}
+
+.header-txt h1, span, h3 {
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: blue;
+    margin-bottom: 15px;
+    -webkit-text-fill-color: blue; 
+    -webkit-text-stroke: 0.1px black;
+}
+
+.header-txt span {
+    font-size: 25px;
+}
+
+.header-txt p {
+    color: #AFAFAF;
+    padding: 0 255px;
+    margin: 25px 0;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-1{
+    background-image: url(https://fondosmil.com/fondo/24928.png);
+    background-attachment: fixed; 
+    background-position-x: -270px ;
+    /*background-position: left center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+h2 {
+    font-size: 80px;
+    line-height: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #AFAFAF;
+    margin: 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: blueviolet;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: purple;
+}
+
+.b1 {
+    color: blueviolet;
+}
+
+.artist {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.artist-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid blueviolet;
+    width: 80px;
+}
+
+.artist-txt p {
+    padding: 50px 150px;
+}
+
+.artist-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.artist-1{
+    background-color: #070707;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.artist-1 img{
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+.artist-1 h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.artist-1 a {
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.ranking {
+    display: flex;
+}
+
+.ranking-1 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+table {
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid blueviolet;
+    margin-bottom: 20px;
+}
+
+th {
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+td {
+    color: blueviolet;
+}
+
+.ranking-2 {
+    background-image: url(https://i.ytimg.com/vi/kQFOuJ90BgA/maxresdefault.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.blog-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.blog-1 {
+    text-align: center;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.blog-1 h3{
+    font-size: 22px;
+}
+
+.blog-1 p {
+    padding: 0 50px;
+}
+
+.blog-1 a {
+    color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 1000px;
+    background-color: #040404;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    margin-right: 35px;
+}
+
+.links ul li a {
+    color: blueviolet;
 }
