@@ -312,3 +312,133 @@ td {
 .links ul li a {
     color: blueviolet;
 }
+
+@media(max-width:991px){
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1F1F1F;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1 {
+        font-size: 80px;
+    }
+
+    .header-txt p {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome-1 {
+        display: none;
+    }
+
+    .welcome-2 {
+        width: 100%;
+        padding: 20%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    p{
+        margin: 15px 0;
+    }
+
+    .artist {
+        padding: 30px;
+    }
+
+    .artist-txt p {
+        padding: 0;
+    }
+
+    .artist-group {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .artist-1 {
+        margin: 0 0 20px 0;
+    }
+
+    /*arreglar los rankings*/
+    .ranking {
+        flex-direction: column;
+    }
+
+    .ranking-1 {
+        width: 500px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    table {
+        margin: 20px 0 0 0;
+    }
+
+    .ranking-2 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .blog-1 {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer ul li {
+        padding: 40px;
+    }
+
+
+}
