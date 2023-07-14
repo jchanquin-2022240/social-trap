@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    background-image: url(https://www.zastavki.com/pictures/1280x720/2015/Backgrounds_Blue_Black_Background_107698_26.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(https://caracoltv.brightspotcdn.com/dims4/default/4a3ff5e/2147483647/strip/true/crop/6000x3959+0+0/resize/1000x660!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2F6a%2F1f%2F33957cb143e686643708b370ae0b%2Fyoung-miko.jpg);
     background-attachment: fixed;  
     background-position: center top;
     background-repeat: no-repeat;
@@ -68,7 +68,6 @@ body {
     color: blueviolet;
 }
 
-
 nav .dropdown {
     position: relative;
     display: inline-block;
@@ -114,7 +113,7 @@ nav .dropdown {
 }
 
 .header-txt h1, span, h3 {
-    font-size: 110px;
+    font-size: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -131,7 +130,7 @@ nav .dropdown {
 .header-txt p {
     color: #AFAFAF;
     padding: 0 255px;
-    margin: 25px 0;
+    margin: 10px 0;
 }
 
 .welcome {
@@ -139,7 +138,8 @@ nav .dropdown {
 }
 
 .welcome-1{
-    background-image: url(https://fondosmil.com/fondo/24928.png);
+    /*https://guategram.com/wp-content/uploads/2023/04/young-miko-guatemala.jpg*/
+    background-image: url(https://assets.isu.pub/document-structure/230501142250-6ed2a75e620b4f75e63e48a421d82132/v1/fe707adc7da02f99c4b6c07b67980a65.jpeg);
     background-attachment: fixed; 
     background-position-x: -270px ;
     /*background-position: left center;*/
@@ -151,14 +151,13 @@ nav .dropdown {
 .welcome-2 {
     width: 50%;
     text-align: justify;
-    padding: 150px 145px 240px 150px;
+    padding: 150px 145px 200px 150px;
     background-color: #191919;
 }
 
 h2 {
-    font-size: 90px;
-    line-height: 90px;
-    text-align: center;
+    font-size: 85px;
+    line-height: 80px;
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -251,50 +250,8 @@ hr {
     font-size: 16px;
 }
 
-.ranking {
-    display: flex;
-    text-align: justify;
-}
-
-.ranking-1 {
-    width: 50%;
-    padding: 150px 250px 150px 100px;
-    background-color: #191919;
-}
-
-table {
-    margin: 50px 0;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
-}
-
-tr {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid blueviolet;
-    margin-bottom: 20px;
-}
-
-th {
-    color: #ffffff;
-    padding-bottom: 15px;
-}
-
-td {
-    color: blueviolet;
-}
-
-.ranking-2 {
-    background-image: url(https://i.ytimg.com/vi/kQFOuJ90BgA/maxresdefault.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
 .blog {
-    padding: 100px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
